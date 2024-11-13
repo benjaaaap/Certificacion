@@ -10,6 +10,16 @@
 
 <body>
 
+
+    <section id="container" style="display: none;">
+
+        <h3>You are looking for a cat</h3>
+
+        <article class="silver">
+            <button onclick="ocultar()" class="btn-2">OK</button>
+        </article>
+      </section>
+
     <nav>
         <section class="barra">
             <div class="row">
@@ -33,7 +43,7 @@
                 <img src="img/patita.png" class="patita" alt="simbolo de una patita">
                 <input list="opciones" id="opcionesInput" name="opcion">
                 <datalist id="opciones">
-                    <option value="Any Pet"></option>
+                    <option id="mostrar" value="Any Pet"></option>
                     <option value="Cat"></option>
                     <option value="Dog"></option>
                 </datalist>
